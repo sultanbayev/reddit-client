@@ -7,9 +7,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-    "@/app": path.resolve(__dirname, "./src/app"),
-    "@/entities": path.resolve(__dirname, "./src/entities"),
-    "@/shared": path.resolve(__dirname, "./src/shared"),
+  server: {
+    port: 3000,
+    open: true,
   },
-},
 })
