@@ -1,0 +1,2 @@
+npx steiger ./src
+npm run build
