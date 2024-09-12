@@ -35,7 +35,6 @@
     "vite": "^5.4.1"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": "steiger ./src",
     "src/**/*.{js,jsx,ts,tsx,css,sass,scss}": "prettier --write"
   }
 }

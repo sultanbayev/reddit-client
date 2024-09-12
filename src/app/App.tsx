@@ -1,5 +1,3 @@
-import './App.css';
-
 export const App = () => {
-  return <p>Reddit Client</p>;
-};
+  return <p>Reddit Client</p>
+}
